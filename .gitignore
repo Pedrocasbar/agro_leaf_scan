@@ -1,13 +1,59 @@
-# Diretórios de ambientes virtuais e cache
+# ================================
+# Arquivos e diretórios do Python
+# ================================
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+
+# ================================
+# Ambientes virtuais
+# ================================
 venv/
 .venv/
-__pycache__/
-*.egg-info/
+env/
+.env/
 
-# Arquivos de Modelo (Geralmente são muito grandes, evitamos no GitHub padrão)
-folha_cnn_model.h5
-folha_cnn_model.keras
+# ================================
+# Configurações e credenciais
+# ================================
+*.env
+*.ini
+*.cfg
 
-# Arquivos de dados grandes ou logs que não são necessários
+# ================================
+# Modelos e pesos grandes
+# ================================
+*.h5
+*.keras
+*.ckpt
+*.pb
+
+# ================================
+# Dados e saídas
+# ================================
 *.csv
+*.tsv
+*.json
+*.xlsx
+*.db
+*.sqlite
 *.log
+*.out
+
+# ================================
+# Ferramentas específicas
+# ================================
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Streamlit
+.streamlit/
+
+# VSCode / IDEs
+.vscode/
+.idea/
