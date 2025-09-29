@@ -1,0 +1,13 @@
+# Diretórios de ambientes virtuais e cache
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+
+# Arquivos de Modelo (Geralmente são muito grandes, evitamos no GitHub padrão)
+folha_cnn_model.h5
+folha_cnn_model.keras
+
+# Arquivos de dados grandes ou logs que não são necessários
+*.csv
+*.log
