@@ -9,6 +9,7 @@ Inclui scripts para:
 🔍 Predição individual.
 🌐 Aplicativo Streamlit com histórico, miniaturas e exportação de PDF.
 
+```
 Estrutura do Projeto
 folha_cnn/
 │── baixar_data.py        # Script para baixar e organizar o dataset do Google Drive
@@ -25,6 +26,7 @@ folha_cnn/
 └── val/                  # Validação do Modelo
     ├── saudavel/
     └── doente/
+```
 
 1. Instalação - Criar e ativar o ambiente virtual:
 
@@ -94,19 +96,21 @@ II. Clique em "Gerar Relatório"
 
    Criar um sistema completo capaz de:
 
-✔ treinar uma CNN
-✔ classificar imagens de folhas
-✔ gerar relatório PDF
-✔ manter histórico das análises
-✔ rodar localmente em Streamlit
+- ✔ Treinar uma CNN
+- ✔ Classificar imagens de folhas
+- ✔ Gerar relatório PDF
+- ✔ Manter histórico das análises
+- ✔ Rodar localmente em Streamlit
 
 --------------------------------------------------------------------------------
 
 
-📄Licença
+📄Licença:
 Este projeto é de uso livre para fins acadêmicos e educacionais.
 
-👨‍💻 Autor
+👨‍💻 Autor:
 Pedro Castro Barros – Projeto de TCC:
 "Detecção de Anomalias em Folhas de Plantações de Soja Utilizando Redes Neurais Convolucionais".
-Orientador(a): Professora Dra.  Kadidja Valéria.
+
+✨ Orientador(a): 
+Professora Dra.  Kadidja Valéria.
