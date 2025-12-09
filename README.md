@@ -3,11 +3,11 @@ Este projeto implementa uma Rede Neural Convolucional (CNN) para classificar fol
 
 Inclui scripts para:
 
-📥 Download automático do dataset
-📁 Organização das pastas
-🧠 Treinamento da CNN
-🔍 Predição individual
-🌐 Aplicativo Streamlit com histórico, miniaturas e exportação de PDF
+📥 Download automático do dataset.
+📁 Organização das pastas.
+🧠 Treinamento da CNN.
+🔍 Predição individual.
+🌐 Aplicativo Streamlit com histórico, miniaturas e exportação de PDF.
 
 Estrutura do Projeto
 folha_cnn/
