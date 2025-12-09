@@ -3,11 +3,11 @@ Este projeto implementa uma Rede Neural Convolucional (CNN) para classificar fol
 
 Inclui scripts para:
 
-📥 Download automático do dataset.
-📁 Organização das pastas.
-🧠 Treinamento da CNN.
-🔍 Predição individual.
-🌐 Aplicativo Streamlit com histórico, miniaturas e exportação de PDF.
+-📥 Download automático do dataset.
+-📁 Organização das pastas.
+-🧠 Treinamento da CNN.
+-🔍 Predição individual.
+-🌐 Aplicativo Streamlit com histórico, miniaturas e exportação de PDF.
 
 ```
 Estrutura do Projeto
@@ -77,11 +77,11 @@ Essa etapa garante que o medelo está apontando certo.
    streamlit run app.py
    
     O app permite:
-✔ enviar imagens
-✔ visualizar miniaturas no histórico
-✔ ver porcentagem/confiança da predição
-✔ gerar relatório PDF
-✔ visualizar o relatório dentro do app
+-✔ enviar imagens
+-✔ visualizar miniaturas no histórico
+-✔ ver porcentagem/confiança da predição
+-✔ gerar relatório PDF
+-✔ visualizar o relatório dentro do app
 
 9. Gerar Relatório PDF:
 
