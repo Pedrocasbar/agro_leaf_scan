@@ -1,11 +1,17 @@
 import streamlit as st
-from tensorflow.keras.models import load_model
+import tensorflow as tf
+from tensorflow.keras.models import load_model, Sequential
+from keras.layers import InputLayer
 from tensorflow.keras.preprocessing import image
 import numpy as np
 from PIL import Image
 
+print("TensorFlow versão:", tf.__version__)
+
+# Força o Keras a usar compatibilidade com versões antigas
+tf.keras.utils.get_custom_objects().clear()
 # Carrega o modelo treinado
-model = load_model("folha_cnn_model.h5")
+model = load_model("folha_cnn_model.h5", compile=False)
 
 # Interface do app
 st.title("Análise de Saúde da Folha 🌿")
@@ -24,6 +30,7 @@ if uploaded_file is not None:
     # Faz a predição
     prediction = model.predict(img_array)
     class_names = ['Doente', 'Saudável']
+
     class_idx = np.argmax(prediction[0])
     prob = prediction[0][class_idx]
 
