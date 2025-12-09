@@ -42,18 +42,18 @@ folha_cnn/
    python baixar_data.py
 
     Este script realiza automaticamente:
-I. Baixa o arquivo data.zip do Google Drive.
-II. Salva em data/.
+- I. Baixa o arquivo data.zip do Google Drive.
+- II. Salva em data/.
 
     Você deve:
-I. Descompacta em data/data.
-II. Move apenas o conteúdo interno para:
+- I. Descompacta em data/data.
+- II. Move apenas o conteúdo interno para:
 
         data/train/
         data/val/
    
-III. Apaga a pasta vazia data/data/ . 
-Após rodar, o caminho final fica assim:
+- III. Apaga a pasta vazia data/data/ . 
+ Após rodar, o caminho final fica assim:
 
         data/train/
         data/val/
@@ -63,9 +63,9 @@ Após rodar, o caminho final fica assim:
    python train_model.py
    
     Isso irá:
-I. carregar as imagens de data/train e data/val
-II. treinar uma CNN
-III. gerar o arquivo model.h5
+- I. carregar as imagens de data/train e data/val
+- II. treinar uma CNN
+- III. gerar o arquivo model.h5
 
 7. Fazer predições via script:
 
@@ -86,11 +86,11 @@ Essa etapa garante que o medelo está apontando certo.
 9. Gerar Relatório PDF:
 
     Dentro do app Streamlit:
-I. Após enviar uma imagem.
-II. Clique em "Gerar Relatório".
+- I. Após enviar uma imagem.
+- II. Clique em "Gerar Relatório".
 
     O arquivo é salvo automaticamente com:
-- ✔ 20251209_084655_relatorio.pdf
+- 20251209_084655_relatorio.pdf
 
 10. Objetivo do Projeto:
 
