@@ -3,11 +3,11 @@ Este projeto implementa uma Rede Neural Convolucional (CNN) para classificar fol
 
 Inclui scripts para:
 
--📥 Download automático do dataset.
--📁 Organização das pastas.
--🧠 Treinamento da CNN.
--🔍 Predição individual.
--🌐 Aplicativo Streamlit com histórico, miniaturas e exportação de PDF.
+- 📥 Download automático do dataset.
+- 📁 Organização das pastas.
+- 🧠 Treinamento da CNN.
+- 🔍 Predição individual.
+- 🌐 Aplicativo Streamlit com histórico, miniaturas e exportação de PDF.
 
 ```
 Estrutura do Projeto
@@ -42,17 +42,17 @@ folha_cnn/
    python baixar_data.py
 
     Este script realiza automaticamente:
-I. Baixa o arquivo data.zip do Google Drive
-II. Salva em data/
+I. Baixa o arquivo data.zip do Google Drive.
+II. Salva em data/.
 
     Você deve:
-I.Descompacta em data/data
-II.Move apenas o conteúdo interno para:
+I. Descompacta em data/data.
+II. Move apenas o conteúdo interno para:
 
         data/train/
         data/val/
    
-Apaga a pasta vazia data/data/
+III. Apaga a pasta vazia data/data/ . 
 Após rodar, o caminho final fica assim:
 
         data/train/
@@ -77,20 +77,20 @@ Essa etapa garante que o medelo está apontando certo.
    streamlit run app.py
    
     O app permite:
--✔ enviar imagens
--✔ visualizar miniaturas no histórico
--✔ ver porcentagem/confiança da predição
--✔ gerar relatório PDF
--✔ visualizar o relatório dentro do app
+- ✔ enviar imagens
+- ✔ visualizar miniaturas no histórico
+- ✔ ver porcentagem/confiança da predição
+- ✔ gerar relatório PDF
+- ✔ visualizar o relatório dentro do app
 
 9. Gerar Relatório PDF:
 
     Dentro do app Streamlit:
-I. Após enviar uma imagem
-II. Clique em "Gerar Relatório"
+I. Após enviar uma imagem.
+II. Clique em "Gerar Relatório".
 
     O arquivo é salvo automaticamente com:
-✔ 20251209_084655_relatorio.pdf
+- ✔ 20251209_084655_relatorio.pdf
 
 10. Objetivo do Projeto:
 
