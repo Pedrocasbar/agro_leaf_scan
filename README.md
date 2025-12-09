@@ -58,6 +58,9 @@ folha_cnn/
         data/train/
         data/val/
 
+  Link para Download Manual do Dataset (o 'baixar_data.py' faz isso automaticamente):
+-  https://drive.google.com/drive/folders/1eAYlrz_wPWP6vTjSlCB1eHYrDo7pQKfo?usp=sharing
+   
 5. Treinar o modelo:
 
    python train_model.py
